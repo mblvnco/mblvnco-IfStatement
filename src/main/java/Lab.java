@@ -8,7 +8,6 @@ public class Lab {
      * Let's make an if statement that does the following:
      * if bool is true, return x.
      * if bool is false, return y.
-     * 
      * All variables needed to solve the problem are provided by the method parameters - boolean bool, int x, int y.
      * This means that you can use the variables bool, x, and y freely, within the if statement, to solve the problem.
      *
@@ -20,6 +19,11 @@ public class Lab {
      * @return x if bool is true. if bool is false, return y.
      */
     public int ifExample(boolean bool, int x, int y){
-        return 0;
+        if (bool) {
+            return x;
+        } else {
+            return y;
+        }
+        
     }
 }
